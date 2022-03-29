@@ -16,4 +16,4 @@ const Jewelry = new Schema(
     {timestamps: true}
 )
 
-module.exports = mongoose.model('jewlery', Jewelry)
+module.exports = mongoose.model('Jewlery', Jewelry)
