@@ -1,6 +1,4 @@
-const { clear } = require('console')
 const db = require('../db')
-const { bulkSave } = require('../models/jewelry')
 const Jewlery = require('../models/jewelry')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error'))
