@@ -1,9 +1,11 @@
 const mongoose = require('mongoose')
 require('dotenv').config()
 
+let MONGODB_URI = process.env.MONGODB_URI
+
 let dbUrl = process.env.NODE_ENV === 'production' ? process.env.MONGODB_URI : 'mongodb://127.0.0.1:27017/<Jordan-Jewelry>' 
 
-let MONGODB_URI = process.env.MONGODB_URI
+
 
 
 mongoose
