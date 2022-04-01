@@ -1,4 +1,4 @@
-# Village Hero
+# JJ Jewelry
 ### By: Tylus Dawkins
 [Trello](https://trello.com/b/tsR0EEdt/jewelry)
 ## Description
