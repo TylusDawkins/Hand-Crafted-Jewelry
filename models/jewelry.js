@@ -10,6 +10,7 @@ const Jewelry = new Schema(
         image: {type: String, required: true},
         colors: {type: Array, required: true},
         band: {type: String, required: true},
+        price: {type: Number, required:true},
     },
 
     {timestamps: true}

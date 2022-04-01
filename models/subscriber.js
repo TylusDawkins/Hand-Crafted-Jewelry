@@ -4,7 +4,7 @@ const Schema  = mongoose.Schema
 
 const Subscriber = new Schema(
     {
-        Email: {type: String, required: true},
+        email: {type: String, required: true},
     },
 
     {timestamps: true}
