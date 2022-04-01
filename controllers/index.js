@@ -35,6 +35,16 @@ const createItem = async (req, res) => {
 
     }
 }
+const updateItem = async (req,res) =>{
+    try{
+        res.status(200).json(await Jewelry.findByIdAndUpdate(req.params.id, req.body))
+    } catch (error) {
+        return res.status(500).json({ error: error.message })
+
+    }
+}
+
+
 const deleteItem = async (req,res) =>{
     try{
         res.status(200).json(await Jewelry.findByIdAndDelete(req.params.id))
@@ -48,4 +58,5 @@ module.exports = {
     createItem,
     deleteItem,
     getItemById,
+    updateItem
 }

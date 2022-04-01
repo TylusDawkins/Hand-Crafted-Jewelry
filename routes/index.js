@@ -8,6 +8,8 @@ router.get('/items', controllers.getAllJewelry)
 
 router.get('/shop/:id', controllers.getItemById)
 
+router.put('/shop/:id', controllers.updateItem)
+
 router.post('/items/add/', controllers.createItem)
 
 router.delete('/items/:id', controllers.deleteItem)
