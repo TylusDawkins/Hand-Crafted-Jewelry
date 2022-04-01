@@ -8,7 +8,7 @@ const Jewelry = new Schema(
         type: {type: String, required: true},
         description: {type: String, required: true},
         image: {type: String, required: true},
-        colors: {type: String, required: true},
+        colors: {type: Array, required: true},
         band: {type: String, required: true},
     },
 

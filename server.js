@@ -16,7 +16,7 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-// app.use(require("./routes/record"));
+
 
 // app.use() middleware here ^ ///////////////////
 
