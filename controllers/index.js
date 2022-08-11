@@ -1,5 +1,4 @@
 const Jewelry = require('../models/jewelry');
-const { post } = require('../routes');
 
 
 const getAllJewelry = async (req, res) => {
